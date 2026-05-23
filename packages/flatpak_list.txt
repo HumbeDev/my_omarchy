@@ -1,0 +1,15 @@
+com.rustdesk.RustDesk
+io.github.alainm23.planify
+org.freedesktop.Platform
+org.freedesktop.Platform.GL.default
+org.freedesktop.Platform.GL.default
+org.freedesktop.Platform.GL.nvidia-595-71-05
+org.freedesktop.Platform.VAAPI.Intel
+org.freedesktop.Platform.VAAPI.nvidia
+org.freedesktop.Platform.codecs-extra
+org.freedesktop.Sdk
+org.freedesktop.Sdk.Extension.openjdk17
+org.gnome.Platform
+org.gnome.Platform
+org.godotengine.Godot
+org.gtk.Gtk3theme.Adwaita-dark

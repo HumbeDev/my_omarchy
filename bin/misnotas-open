@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+notes_file="/media/HarDrive/!Info/Notas.txt"
+
+if [[ ! -e "$notes_file" ]]; then
+  # Intentar montar si no existe (opcional, pero útil si el disco no está montado)
+  label="HarDrive"
+  device="$(lsblk -rpo NAME,LABEL | awk -v label="$label" '$2 == label { print $1; exit }')"
+  if [[ -n "${device:-}" ]]; then
+    udisksctl mount -b "$device" >/dev/null 2>&1 || true
+  fi
+fi
+
+if [[ ! -e "$notes_file" ]]; then
+  notify-send "Mis Notas" "No se encontro $notes_file"
+  exit 1
+fi
+
+exec xdg-terminal-exec micro "$notes_file"

@@ -1,0 +1,13 @@
+source /usr/share/cachyos-zsh-config/cachyos-config.zsh
+
+
+export PATH="$HOME/.local/bin:$PATH"
+
+
+. "$HOME/.local/share/../bin/env"
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/humbedev/.local/bin:$PATH"
+alias agy="agy --dangerously-skip-permissions"
+alias antigravity="antigravity --dangerously-skip-permissions"

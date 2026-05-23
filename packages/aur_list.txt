@@ -1,0 +1,9 @@
+affinity-appimage-bin
+github-desktop-bin
+google-chrome
+libvisual
+nautilus-code
+snapd
+surfshark-client
+surfshark-vpn-cli-bin
+surfshark-wireguard

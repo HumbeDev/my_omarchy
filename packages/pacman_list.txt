@@ -83,7 +83,6 @@ fwupd
 gcc-fortran
 git
 github-cli
-github-desktop-bin
 glances
 gnome-calculator
 gnome-disk-utility
@@ -102,6 +101,7 @@ gvfs-mtp
 gvfs-nfs
 gvfs-smb
 hdparm
+heroic-games-launcher-bin
 hwdetect
 hwinfo
 hypridle
@@ -160,6 +160,7 @@ mise
 mkinitcpio
 modemmanager
 mpv
+mpv-mpris
 mtools
 nano
 nano-syntax-highlighting
@@ -238,9 +239,6 @@ spotify
 starship
 steam
 sudo
-surfshark-client
-surfshark-vpn-cli-bin
-surfshark-wireguard
 sushi
 swaybg
 swayosd

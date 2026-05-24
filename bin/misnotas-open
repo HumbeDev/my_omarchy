@@ -17,4 +17,4 @@ if [[ ! -e "$notes_file" ]]; then
   exit 1
 fi
 
-exec xdg-terminal-exec micro "$notes_file"
+exec zed "$notes_file"

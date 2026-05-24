@@ -1,5 +1,4 @@
 com.rustdesk.RustDesk
-io.github.alainm23.planify
 org.freedesktop.Platform
 org.freedesktop.Platform.GL.default
 org.freedesktop.Platform.GL.default

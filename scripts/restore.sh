@@ -30,6 +30,15 @@ echo "Restaurando archivos de configuración..."
 mkdir -p ~/.config/omarchy
 rsync -av "$REPO_DIR/config/omarchy/" ~/.config/omarchy/
 
+# Restaurar carpetas extra si existen
+for dir in hypr waybar alacritty ghostty kitty mako; do
+    if [ -d "$REPO_DIR/config/extra/$dir" ]; then
+        echo "Restaurando configuración de $dir..."
+        mkdir -p "$HOME/.config/$dir"
+        rsync -av "$REPO_DIR/config/extra/$dir/" "$HOME/.config/$dir/"
+    fi
+done
+
 cp "$REPO_DIR/config/zshrc" ~/.zshrc
 cp "$REPO_DIR/config/bashrc" ~/.bashrc
 cp "$REPO_DIR/config/starship.toml" ~/.config/starship.toml

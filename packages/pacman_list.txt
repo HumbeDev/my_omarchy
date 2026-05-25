@@ -44,10 +44,6 @@ claude-code
 cliamp
 cpupower
 cryptsetup
-cups
-cups-browsed
-cups-filters
-cups-pdf
 davinci-resolve
 device-mapper
 diffutils
@@ -55,11 +51,7 @@ discord
 dmidecode
 dmraid
 dnsmasq
-docker
-docker-buildx
-docker-compose
 dosfstools
-dotnet-runtime-9.0
 duf
 dust
 e2fsprogs
@@ -120,7 +112,6 @@ iwd
 jfsutils
 kernel-modules-hook
 kvantum-qt5
-lazydocker
 lazygit
 less
 lib32-nvidia-utils
@@ -151,7 +142,6 @@ mako
 man-db
 man-pages
 mangohud
-mariadb-libs
 mdadm
 mesa-utils
 micro
@@ -207,7 +197,6 @@ plymouth
 pnpm
 polkit-gnome
 poppler-glib
-postgresql-libs
 power-profiles-daemon
 pv
 python
@@ -223,8 +212,6 @@ rebuild-detector
 reflector
 ripgrep
 rsync
-ruby
-rust
 s-nail
 satty
 sddm
@@ -270,7 +257,6 @@ ttf-meslo-nerd
 ttf-opensans
 tzupdate
 ufw
-ufw-docker
 ufw-extras
 unrar
 unzip

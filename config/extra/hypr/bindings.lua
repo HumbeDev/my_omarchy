@@ -14,6 +14,7 @@ o.bind("SUPER + SHIFT + G", "Godot", { launch = "flatpak run org.godotengine.God
 o.bind("SUPER + SHIFT + O", "Obsidian", { launch = "obsidian", focus = "^obsidian$" })
 o.bind("SUPER + SHIFT + W", "WhatsApp", { launch = "omarchy-launch-webapp https://web.whatsapp.com/" })
 o.bind("SUPER + SHIFT + V", "VS Code", { launch = "code", focus = "code" })
+o.bind("SUPER + SHIFT + L", "LocalSend", { launch = "localsend", focus = "localsend" })
 o.bind("SUPER + SHIFT + SLASH", "Git", { tui = "lazygit" })
 -- Web app bindings.
 o.bind("SUPER + SHIFT + A", "ChatGPT", { webapp = "https://chatgpt.com" })

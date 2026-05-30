@@ -1,4 +1,7 @@
 affinity-appimage-bin
 google-chrome
+matlab
+matlab-meta
+matlab-mpm
 nautilus-code
 snapd

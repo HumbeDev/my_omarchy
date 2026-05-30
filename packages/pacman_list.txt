@@ -142,6 +142,7 @@ mako
 man-db
 man-pages
 mangohud
+matlab
 mdadm
 mesa-utils
 micro
@@ -175,6 +176,7 @@ nvidia-utils
 nwg-displays
 obs-studio
 obsidian
+okular
 omarchy-keyring
 omarchy-nvim
 omarchy-walker
@@ -212,6 +214,8 @@ rebuild-detector
 reflector
 ripgrep
 rsync
+ruby
+rust
 s-nail
 satty
 sddm
@@ -267,6 +271,7 @@ usbutils
 uwsm
 vim
 visual-studio-code-bin
+vlc
 vlc-plugins-all
 vpl-gpu-rt
 vulkan-icd-loader
